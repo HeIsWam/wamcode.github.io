@@ -87,6 +87,7 @@ header{
 }
   main{
     background:white;
+    margin-top:80px;
   }
   main .container{
     display:flex;

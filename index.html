@@ -1,169 +1,132 @@
-<!Doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WamCode</title>
+  <link rel="icon" href="https://pics.freeicons.io/uploads/icons/png/3713041941626676461-512.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <div class="scl-bnr">
-        <marquee onmouseover="this.stop();" onmouseleave="this.start();" scrollamount="5"> Due to lockdowns across the
-            country, please expect a delay in pickup or delivery of your shipments. For details on impacted areas,
-            please <a target="_blank" href="http://kairoslogistics.in/"> check this link</a>. We regret the
-            inconvenience caused. </marquee>
+  <body>
+  <header>
+    <div class="logo">
+      <button id="menu-bar" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+      <h1>WamCode</h1>
     </div>
-    <header>
-        <div class="head-cont">
-            <img src="https://lh3.googleusercontent.com/HyWtdg3NLKpyUN2-EduT0A8d8FGOkW8IU-ZZ_hd6cnflowuz5p0QPnWjUHC_MB0v2LIZnA=s170"
-                alt="Kairos">
-            <ul>
-                <li>Home</li>
-                <li>Services</li>
-                <li>Contact Us</li>
-                <li>About</li>
-            </ul>
-            <button>Customer Care<i class="fa fa-phone fa-flip-horizontal"></i></button>
+    <div class="menu" id="nav-bar">
+      <button id="close-menu-bar" onclick="closeMenu()"><i class="fa fa-times"></i></button>
+      <ul>
+        <li><a href="#"><i class="fa fa-home"> Home</i></a></li>
+        <li><a href="#"><i class="fa fa-file-excel-o"> Formulas</i></a></li>
+        <li><a href="#"><i class="fa fa-repeat"> Functions</i></a></li>
+        <li><a href="#"><i class="fa fa-code">  VBA Projects</i></a></li>
+        <li><a href="#"><i class="fa fa-user"> About Us</i></a></li>
+      </ul>
+    </div>
+    <div class="go-to">
+      <button><a href="https://www.youtube.com/channel/UC1AiXnzgMkwoMR_af3_VXEg" target="_blank"><i class="fa fa-youtube-play"></i> <span>Go to Youtube</span></a></button>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+<!--       <div class="side-h">
+        
+      </div> -->
+      <div class="main-h">
+        <div class="intro">
+          <h2>Welcome to WamCode</h2>
+          <h3>Introduction to Excel</h3>
+          <div class="banner-ad">
+            
+          </div>
         </div>
-    </header>
-
-    <main>
-        <div class="main-cont">
-            <div class="track">
-                <div class="back-img">
-                    <div class="title-bar">
-                        <h1>We server all over India</h1>
-                        <span>with 10 years of experience and counting</span>
-                    </div>
-                    <div class="track-order">
-                        <input type="text" maxlength="10" placeholder="Search with Pincode or Locality" />
-                        <button>Check</button>
-                    </div>
-                </div>
-            </div>
-
-            <!--   Services Steps for shifting    -->
-            <div class="services">
-                <h2>Quick and Hassel free Service</h2>
-
-                <div class="ser-call">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAjoxCrjndqyX4gRds2AbNzfL8lbBkk40YxtjiiIDRCNsH9hyw3vFWMe4ilB7wqs2CetE&usqp=CAU"
-                        alt="Schedule a Call">
-                    <h3>Schedule a pickup</h3>
-                    <ul>
-                        <li>Call us on <a href="">1800 456 846</a> Or visit our Website <a
-                                href="http://kairoslogistics.in/">Kairoslogistics</a></li>
-                        <li>Set your pickup and drop location</li>
-                        <li>Tell us the package weight</li>
-                    </ul>
-                </div>
-
-                <div class="ser-pick">
-                    <img src="https://shiftme.in/wp-content/uploads/2021/01/Packers-Movers-01.png" alt="Pickup">
-                    <h3>Doorstep Pickup</h3>
-                    <ul>
-                        <li>Associates will reach on time based on your availability</li>
-                        <li>Handover the products to the associate</li>
-                        <li>You can Pay either online or offline</li>
-                    </ul>
-                </div>
-
-                <div class="ser-call">
-                    <img src="https://www.roambee.com/wp-content/uploads/2019/12/vehicle-tracking-1.png" alt="Tracking">
-                    <h3>Real Time Tracking</h3>
-                    <ul>
-                        <li>Track your shifting status anytime, anywhere</li>
-                        <li>Real time tracking with updates on each point of location</li>
-                        <li>You will receive call once it reaches destination</li>
-                    </ul>
-                </div>
-
-                <div class="ser-pick">
-                    <img src="https://s3-eu-central-1.amazonaws.com/eurosender-blog/wp-content/uploads/2020/12/03072650/Door-to-door-delivery.png"
-                        alt="Delivered">
-                    <h3>Quick Package Delivery</h3>
-                    <span>We deliver your package swiftly, safely
-                        and on time</span>
-                </div>
-                <!-- Comments Data         -->
-                <div class="comments">
-
-                </div>
-                <!-- Contact Us form and also refer a friend        -->
-                <div class="contact-us">
-                    <div class="divide-it">
-                        <div class="write-us">
-                            <form action="backend.php">
-                                <img src="https://koppuravurichits.com/wp-content/uploads/2020/05/get-in-touch.png"
-                                    alt="Get in touch">
-                                <h4>Get in Touch with us</h4>
-                                <input type="text" id="w-name" maxlength="40" placeholder="Enter Your Name" class="item"
-                                    required>
-                                <input type="text" id="w-phone" maxlength="10" placeholder="Enter Your Phone Number"
-                                    class="item" required>
-                                <input type="text" id="w-email" maxlength="100" placeholder="Email ID" class="item"
-                                    required>
-                                <textarea rows="4" cols="50" type="text" id="w-text" maxlength="400"
-                                    placeholder="Enter Your Message" class="item" rows="10"></textarea>
-                                <button type="submit">Send your Message</button>
-                            </form>
-                        </div>
-                        <div class="contact">
-                            <h4>Refer a Friend and Get Additional Discount</h4>
-                            <img src="https://www.sparkenergy.com/wp-content/uploads/2020/03/refer-a-friend-Spark-Energy.png"
-                                alt="Refer a friend">
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+        <div class="basic-level">
+          <h3>Excel Basics</h3>
+          <img src="https://static.wikia.nocookie.net/logopedia/images/0/0f/Excel-2007-icon.svg/revision/latest/scale-to-width-down/200?cb=20200929201109" alt="Excel">
+          <ul>
+            <li><i class="fa fa-square"></i> Basic Introduction</li>
+            <li><i class="fa fa-square"></i> Simple Calculations</li>
+            <li><i class="fa fa-square"></i> Pivots and Data Graphs</li>
+            <li><i class="fa fa-square"></i> Simple Shortcuts</li>
+            <li><i class="fa fa-square"></i> Formulas and its Usage</li>
+          </ul>
         </div>
-    </main>
-
-    <footer>
-        <div class="item-1">
-            <div class="pair-1">
-                <img src="https://lh3.googleusercontent.com/HyWtdg3NLKpyUN2-EduT0A8d8FGOkW8IU-ZZ_hd6cnflowuz5p0QPnWjUHC_MB0v2LIZnA=s170"
-                    alt="Kairos">
-                <h5>Kairos Logistics</h5>
-            </div>
-            <address><i class="fa fa-building"></i> Plot 281, Krishna colony, Hafeezpet, Hyderabad, India 500049
-            </address>
+        <div class="inter-level">
+          <h3>Intermediate Level</h3>
+          <img src="https://teaching.cambriancollege.ca/wp-content/uploads/2018/07/Microsoft-Excel.jpg" alt="Excel">
+          <ul>
+            <li><i class="fa fa-square"></i> Basic Introduction</li>
+            <li><i class="fa fa-square"></i> Simple Calculations</li>
+            <li><i class="fa fa-square"></i> Pivots and Calculated Fields</li>
+            <li><i class="fa fa-square"></i> Data Graphs</li>
+            <li><i class="fa fa-square"></i> Formulas and its Usage</li>
+          </ul>
         </div>
-        <div class="item-2">
-            <div class="f-pair-1">
-                <h6>About Company</h6>
-                <a href="">Home</a>
-                <a href="">About us</a>
-                <a href="">Terms and Conditions</a>
-                <a href="">Refer a friend</a>
-            </div>
-            <div class="f-pair-2">
-                <h6>Services</h6>
-                <a href="">House Relocation</a>
-                <a href="">Office Shifting</a>
-                <a href="">Storage Space</a>
-                <a href="">Work Locations</a>
-                <a href="">Rental House</a>
-            </div>
-            <div class="f-pair-3">
-                <h6>Partner with us</h6>
-                <a href="">Contact us</a>
-                <a href="">Know More</a>
-            </div>
-            <div class="f-pair-4">
-                <h6>Follow Us</h6>
-                <a href="" class="fb"><i class="fa fa-facebook-square"></i></a>
-                <a href=""><i class="fa fa-instagram"></i></a>
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-whatsapp"></i></a>
-            </div>
+        <div class="expert-level">
+          <h3>Excel Expert</h3>
+          <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2PRmJ?ver=cf0f&q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true" alt="Excel">
+          <ul>
+            <li><i class="fa fa-square"></i> Basic Introduction</li>
+            <li><i class="fa fa-square"></i> Simple Calculations</li>
+            <li><i class="fa fa-square"></i> Pivots and Calculated Fields</li>
+            <li><i class="fa fa-square"></i> Data Graphs</li>
+            <li><i class="fa fa-square"></i> Formulas and its Usage</li>
+          </ul>          
         </div>
-        <div class="item-3">
-            <div>&copy; Kairos Logistics - 2010</div>
+        <div class="advanced-level">
+          <h3>Excel Advanced</h3>
+          <img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2019/09/History-of-AI-1024x819.jpg" alt="Excel">
+          <ul>
+            <li><i class="fa fa-square"></i> Basic Introduction</li>
+            <li><i class="fa fa-square"></i> Simple Calculations</li>
+            <li><i class="fa fa-square"></i> Pivots and Calculated Fields</li>
+            <li><i class="fa fa-square"></i> Data Graphs</li>
+            <li><i class="fa fa-square"></i> Formulas and its Usage</li>
+          </ul>          
         </div>
-    </footer>
-</body>
-
+      </div>
+<!--       <div class="recent-h">
+        
+      </div> -->
+    </div>
+  </main>
+  <footer>
+    <h4>--- WamCode ---</h4>
+      <div class="foot-h">
+        <div class="foot-1">
+          <h5>Company</h5>
+          <ul>
+            <li>Formulas</li>
+            <li>Functions</li>
+            <li>VBA Projects</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+        <div class="foot-2">
+          <h5>Excel Learning</h5>
+          <ul>
+            <li>Basic Level</li>
+            <li>Intermediate Level</li>
+            <li>Expert Level</li>
+            <li>Advanced Level</li>
+          </ul>          
+        </div>
+      </div>
+      <div class="follow-us">
+          <a href=""><i class="fa fa-at"></i></a>
+          <a href=""><i class="fa fa-youtube-play"></i></a>
+          <a href="" class="fb"><i class="fa fa-facebook-square"></i></a>
+          <a href=""><i class="fa fa-instagram"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-whatsapp"></i></a>
+      </div>
+      <span>Copyright &copy; - WamCode</span>
+  </footer>
+  </body>
 </html>

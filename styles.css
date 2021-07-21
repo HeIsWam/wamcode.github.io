@@ -114,8 +114,9 @@ header{
   .main-h .intro{
     width:100%;
     height:300px;
-    background-image:url('https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg');
-    background-size: cover;    
+/*     background-image:url('https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg');
+    background-size: cover;     */
+    background:lightgray;
   }
   .main-h .banner-ad{
 /*     background:gray; */
@@ -126,12 +127,12 @@ header{
   .intro h2{
     margin:0px;
     padding:20px 10px;
-    color:lightgray;
+    color:black;
     font-size:1.5em;
   }
   .banner-ad h3{
     font-size:0.8em;
-    color:white;
+    color:black;
     width:70%;
     margin:10px auto;
   }
@@ -146,7 +147,7 @@ header{
   .banner-ad img{
     width:5em;
     height:8em;
-    box-shadow:0px 0px 4px 2px lightgray;
+    box-shadow:0px 0px 4px 2px gray;
 /*     margin:auto 10px; */
   }
   .main-h ul{

@@ -8,25 +8,26 @@
   <link rel="icon" href="https://pics.freeicons.io/uploads/icons/png/3713041941626676461-512.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS Files/styles.css">
+  <script src="scriptng.js"></script>
 </head>
 
   <body>
   <header>
     <div class="logo">
       <button id="menu-bar" onclick="showMenu()"><i class="fa fa-bars"></i></button>
-      <h1>WamCode</h1>
+      <a href="index.html"> WamCode</a>
     </div>
     <div class="menu" id="nav-bar">
       <button id="close-menu-bar" onclick="closeMenu()"><i class="fa fa-times"></i></button>
       <ul>
-        <li><a href="#"><i class="fa fa-home"> Home</i></a></li>
-        <li><a href="#"><i class="fa fa-file-excel-o"> Formulas</i></a></li>
-        <li><a href="#"><i class="fa fa-repeat"> Functions</i></a></li>
-        <li><a href="#"><i class="fa fa-code">  VBA Projects</i></a></li>
-        <li><a href="#"><i class="fa fa-user"> About Us</i></a></li>
+        <li><a href="index.html"><i class="fa fa-home"> Home</i></a></li>
+        <li><a href="Formulas.html"><i class="fa fa-file-excel-o"> Formulas</i></a></li>
+        <li><a href="Functions.html"><i class="fa fa-repeat"> Functions</i></a></li>
+        <li><a href="VBA Projects.html"><i class="fa fa-code">  VBA Projects</i></a></li>
+        <li><a href="AboutUs.html"><i class="fa fa-user"> About Us</i></a></li>
       </ul>
     </div>
     <div class="go-to">
@@ -39,11 +40,11 @@
         
       </div> -->
       <div class="main-h">
-          <h2>Welcome to WamCode</h2>
-          <h3>Introduction to Excel</h3>
+          <h1>Welcome to WamCode</h1>
+          <h2>Introduction to Excel</h2>
         <div class="basic-level">
-          <h3>Excel Basics</h3>
-          <img src="https://static.wikia.nocookie.net/logopedia/images/0/0f/Excel-2007-icon.svg/revision/latest/scale-to-width-down/200?cb=20200929201109" alt="Excel">
+          <h2>Excel Basics</h2>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFS3_dhJnV2tbd9XCWPtgjUOd5TwP-PJTqCoJIiwUP_6OHe_7rbxe2Sca6HWnM2jjQ_yo&usqp=CAU" alt="Excel">
           <ul>
             <li><i class="fa fa-square"></i> Basic Introduction</li>
             <li><i class="fa fa-square"></i> Simple Calculations</li>
@@ -53,7 +54,7 @@
           </ul>
         </div>
         <div class="inter-level">
-          <h3>Intermediate Level</h3>
+          <h2>Intermediate Level</h2>
           <img src="https://teaching.cambriancollege.ca/wp-content/uploads/2018/07/Microsoft-Excel.jpg" alt="Excel">
           <ul>
             <li><i class="fa fa-square"></i> Basic Introduction</li>
@@ -64,7 +65,7 @@
           </ul>
         </div>
         <div class="expert-level">
-          <h3>Excel Expert</h3>
+          <h2>Excel Expert</h2>
           <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2PRmJ?ver=cf0f&q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true" alt="Excel">
           <ul>
             <li><i class="fa fa-square"></i> Basic Introduction</li>
@@ -75,7 +76,7 @@
           </ul>          
         </div>
         <div class="advanced-level">
-          <h3>Excel Advanced</h3>
+          <h2>Excel Advanced</h2>
           <img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2019/09/History-of-AI-1024x819.jpg" alt="Excel">
           <ul>
             <li><i class="fa fa-square"></i> Basic Introduction</li>
@@ -118,24 +119,24 @@
     </div>
   </main>
   <footer>
-    <h4>--- WamCode ---</h4>
+    <h3>--- WamCode ---</h3>
       <div class="foot-h">
         <div class="foot-1">
-          <h5>Company</h5>
+          <h4>Company</h4>
           <ul>
-            <li>Formulas</li>
-            <li>Functions</li>
-            <li>VBA Projects</li>
-            <li>About Us</li>
+            <li><a href="Formulas.html">Formulas</a></li>
+            <li><a href="Functions.html"></a>Functions</a></li>
+            <li><a href="VBA Projects.html"></a>VBA Projects</a></li>
+            <li><a href="AboutUs.html"></a>About Us</a></li>
           </ul>
         </div>
         <div class="foot-2">
-          <h5>Excel Learning</h5>
+          <h4>Excel Learning</h4>
           <ul>
-            <li>Basic Level</li>
-            <li>Intermediate Level</li>
-            <li>Expert Level</li>
-            <li>Advanced Level</li>
+            <li><a href=""></a>Basic Level</a></li>
+            <li><a href=""></a>Intermediate Level</a></li>
+            <li><a href=""></a>Expert Level</a></li>
+            <li><a href=""></a>Advanced Level</a></li>
           </ul>          
         </div>
       </div>
@@ -150,18 +151,8 @@
       <span>Copyright &copy; - WamCode</span>
   </footer>
   <script>
-    function showMenu() { 
-    var x=document.getElementById("nav-bar")
-    x.style.display = "block";
-    var y=document.getElementById("close-menu-bar")
-    y.style.display = "block";
-    }
-    function closeMenu() { 
-    var x=document.getElementById("nav-bar")
-    x.style.display = "none";
-    var y=document.getElementById("close-menu-bar")
-    y.style.display = "none";
-    }
+
+
   </script>
   </body>
 </html>

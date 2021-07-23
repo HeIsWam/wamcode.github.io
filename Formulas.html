@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WamCode</title>
+  <!-- <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/include-html.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <link rel="icon" href="https://pics.freeicons.io/uploads/icons/png/3713041941626676461-512.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/WamCode/CSS Files/styles.css">
+  <script src="scriptng.js"></script>
+
+</head>
+
+  <body>
+  <header>
+    <div class="logo">
+      <button id="menu-bar" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+      <a href="index.html">WamCode</a>
+    </div>
+    <div class="menu" id="nav-bar">
+      <button id="close-menu-bar" onclick="closeMenu()"><i class="fa fa-times"></i></button>
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"> Home</i></a></li>
+        <li><a href="Formulas.html"><i class="fa fa-file-excel-o"> Formulas</i></a></li>
+        <li><a href="Functions.html"><i class="fa fa-repeat"> Functions</i></a></li>
+        <li><a href="VBA Projects.html"><i class="fa fa-code">  VBA Projects</i></a></li>
+        <li><a href="AboutUs.html"><i class="fa fa-user"> About Us</i></a></li>
+      </ul>
+    </div>
+    <div class="go-to">
+      <button><a href="https://www.youtube.com/channel/UC1AiXnzgMkwoMR_af3_VXEg" target="_blank"><i class="fa fa-youtube-play"></i> <span>Go to Youtube</span></a></button>
+    </div>
+  </header>
+  <!-- END of Header -->
+
+  <!-- START of main  -->
+  <main>
+    <div class="form-container">
+      <div class="form-left-side-bar">
+        <div class="form-logo">
+          <i class="fa fa-file-excel-o"></i>
+          <h2>Formulas</h2>
+        </div>
+        <ul>
+          <li class="main-list drop-down-icon">Sum</li>
+            <div class="sub-list count-list"> 
+              <a href="/WamCode/Formulas/Sum.html"><i class=" fa fa-circle"></i> Sum</a>
+              <a href=""><i class=" fa fa-circle"></i> SumIf</a>
+              <a href=""><i class=" fa fa-circle"></i> SumIfs</a>
+              <a href=""><i class=" fa fa-circle"></i> SubTotal</a>
+              <a href=""><i class=" fa fa-circle"></i> SumProduct</a>
+              <a href=""><i class=" fa fa-circle"></i> Shortcuts</a>
+            </div>
+          <li class="main-list drop-down-icon">Count</li>
+            <div class="sub-list count-list">
+              <a href=""><i class=" fa fa-circle"></i> Count</a>
+              <a href=""><i class=" fa fa-circle"></i> CountA</a>
+              <a href=""><i class=" fa fa-circle"></i> CountIf</a>
+              <a href=""><i class=" fa fa-circle"></i> CountIfs</a>
+              <a href=""><i class=" fa fa-circle"></i> Shortcuts</a>
+            </div>
+          <li class="main-list drop-down-icon">Lookups</li>
+            <div class="sub-list count-list">
+              <a href=""><i class=" fa fa-circle"></i> Vlookup</a>
+              <a href=""><i class=" fa fa-circle"></i> Hlookup</a>
+              <a href=""><i class=" fa fa-circle"></i> Reverse Vlookup</a>
+              <a href=""><i class=" fa fa-circle"></i> Shortcuts</a>
+            </div>
+          <li class="main-list">Index Match</li>
+            <div class="sub-list count-list">
+              <a href=""><i class=" fa fa-circle"></i> Index</a>
+              <a href=""><i class=" fa fa-circle"></i> Match</a>
+              <a href=""><i class=" fa fa-circle"></i> Row</a>
+              <a href=""><i class=" fa fa-circle"></i> Column</a>
+              <a href=""><i class=" fa fa-circle"></i> Index Row Column</a>
+            </div>
+          <li class="main-list">Logical Operators</li>
+          <div class="sub-list count-list">
+            <a href=""><i class=" fa fa-circle"></i> AND</a>
+            <a href=""><i class=" fa fa-circle"></i> OR</a>
+            <a href=""><i class=" fa fa-circle"></i> NOT</a>
+            <a href=""><i class=" fa fa-circle"></i> XOR</a>
+            <a href=""><i class=" fa fa-circle"></i> Shortcuts</a>
+          </div>
+          <li class="main-list">Date and Time</li>
+          <div class="sub-list count-list">
+            <a href=""><i class=" fa fa-circle"></i> DATE</a>
+            <a href=""><i class=" fa fa-circle"></i> DATEDIF</a>
+            <a href=""><i class=" fa fa-circle"></i> DATEVALUE</a>
+            <a href=""><i class=" fa fa-circle"></i> DAY</a>
+            <a href=""><i class=" fa fa-circle"></i> DAYS</a>
+            <a href=""><i class=" fa fa-circle"></i> DAYS360</a>
+            <a href=""><i class=" fa fa-circle"></i> EDATE</a>
+            <a href=""><i class=" fa fa-circle"></i> EOMONTH</a>
+            <a href=""><i class=" fa fa-circle"></i> HOUR</a>
+            <a href=""><i class=" fa fa-circle"></i> ISOWEEKNUM</a>
+            <a href=""><i class=" fa fa-circle"></i> MINUTE</a>
+            <a href=""><i class=" fa fa-circle"></i> MONTH</a>
+            <a href=""><i class=" fa fa-circle"></i> NETWORKDAYS</a>
+            <a href=""><i class=" fa fa-circle"></i> NETWORKDAYS.INTL</a>
+            <a href=""><i class=" fa fa-circle"></i> NOW</a>
+            <a href=""><i class=" fa fa-circle"></i> SECOND</a>
+            <a href=""><i class=" fa fa-circle"></i> TIME</a>
+            <a href=""><i class=" fa fa-circle"></i> TIMEVALUE</a>
+            <a href=""><i class=" fa fa-circle"></i> TODAY</a>
+            <a href=""><i class=" fa fa-circle"></i> WEEKDAY</a>
+            <a href=""><i class=" fa fa-circle"></i> WEEKNUM</a>
+            <a href=""><i class=" fa fa-circle"></i> WORKDAY</a>
+            <a href=""><i class=" fa fa-circle"></i> WORKDAY.INTL</a>
+            <a href=""><i class=" fa fa-circle"></i> YEAR</a>
+            <a href=""><i class=" fa fa-circle"></i> YEARFRAC</a>
+          </div>
+          <li class="main-list"></li>
+          <li class="main-list"></li>
+          <li class="main-list"></li>
+        </ul>
+      </div>
+      <div class="form-main">
+          <div class="form-body">
+            <h1>SUM Formula</h1>
+            <img src="https://www.techrepublic.com/a/hub/i/r/2019/05/31/68a62a40-30df-4acb-8cb0-36b1791395a9/resize/1200x/f1552e95a2839d5fc638764606b1450f/figure-a.jpg" alt="IMG">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dolorum cum fugit incidunt maxime tenetur inventore ad voluptatem modi exercitationem, expedita odio placeat impedit maiores optio eligendi recusandae eum voluptatibus?</p>
+            <h2>AutoSum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugit, perferendis ab magnam amet unde vel suscipit, at deleniti non fuga sapiente et rerum eos, nisi natus officia dolorum numquam? </p>
+            <code>=SUM(A1:A2) <span class="comts">This is Comment</span> 
+            this is also text
+            <span class="rslt">This is Result</span>
+            </code>
+            
+          </div>
+      </div>
+    </div>
+  </main>
+  <!-- END of main  -->
+
+  <!-- START of footer  -->
+  <footer>
+    <h3>--- WamCode ---</h3>
+      <div class="foot-h">
+        <div class="foot-1">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="Formulas.html">Formulas</a></li>
+            <li><a href="Functions.html"></a>Functions</a></li>
+            <li><a href="VBA Projects.html"></a>VBA Projects</a></li>
+            <li><a href="AboutUs.html"></a>About Us</a></li>
+          </ul>
+        </div>
+        <div class="foot-2">
+          <h4>Excel Learning</h4>
+          <ul>
+            <li><a href=""></a>Basic Level</a></li>
+            <li><a href=""></a>Intermediate Level</a></li>
+            <li><a href=""></a>Expert Level</a></li>
+            <li><a href=""></a>Advanced Level</a></li>
+          </ul>          
+        </div>
+      </div>
+      <div class="follow-us">
+          <a href=""><i class="fa fa-at"></i></a>
+          <a href=""><i class="fa fa-youtube-play"></i></a>
+          <a href="" class="fb"><i class="fa fa-facebook-square"></i></a>
+          <a href=""><i class="fa fa-instagram"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-whatsapp"></i></a>
+      </div>
+      <span>Copyright &copy; - WamCode</span>
+  </footer>
+<!-- END of footer  -->
+
+  </body>
+</html>

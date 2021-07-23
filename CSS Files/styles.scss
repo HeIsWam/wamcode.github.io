@@ -10,7 +10,10 @@
   body{
     font-family: "Poppins", sans-serif !important;
   }
-  
+  .empty-space{
+    height: 90px;
+    width: 100%;
+  }
   @media screen and (max-width: 2000px) {
   /*-------------------- This is START of the Header-------------------------- */
   
@@ -142,7 +145,6 @@
     .main-h h1 {
       font-size: 2.2em;
       margin: 20px 0px;
-      margin-top: 90px;
     }
     .main-h h2 {
       font-size: 1.5em;
@@ -266,11 +268,11 @@
             flex: 1.2;
             background: white;
             overflow-y: scroll;
-            position: relative;
-            bottom: 0;
+            // position: relative;
+            // bottom: auto;
             // height: 40%;
-            top: 0;
-            left: 0;
+            // top: 80px;
+            // left: 0;
             .fa-file-excel-o{
                 font-size: 3em;
                 text-align: center;
